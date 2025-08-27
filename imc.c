@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <unistd.h>
+#include <stdio.h> //comando usado para ter interações.
+#include <unistd.h> //linha de código para pegar funções essenciais.(não funciona no windows)
 
 int main() {
     float peso, altura, imc;
