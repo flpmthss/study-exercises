@@ -16,7 +16,7 @@ int main() {
     sleep(2);
     
     printf("Mas e aí, como você se chama?\n");
-    scanf("%19s", &nomeEstudante);
+    scanf("%24s", nomeEstudante);
     sleep(1);
 
     printf("Ih, ala! '%s'... Nome maneiro! hehe!\n", nomeEstudante);
