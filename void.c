@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 
+//void: Função que não retorna valor
+//Utilizamos void quando não precisamos retornar nenhum valor de uma função.
+
 // Protótipos das funções
 void obterDados();
 void checarValores();

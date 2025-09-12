@@ -19,7 +19,7 @@ int main() {
     scanf("%24s", nomeEstudante);
     sleep(1);
 
-    printf("Ih, ala! '%s'... Nome maneiro! hehe!\n", nomeEstudante);
+    printf("Ih, ala! '%s'... Nome maneiro! hehe9!\n", nomeEstudante);
     sleep(2);
     printf("De toda forma, seja bem vindo a Comunidade 'Olá Mundo!'\n");
     sleep(2);
