@@ -11,5 +11,26 @@ int main () {
     float reajuste, salario, novoSalario, maiorSalario;
     maiorSalario = 0;
 
+    printf("Digite a porcentagem de reajuste: ");
+    scanf("%f", &reajuste);
+    sleep(1);
+
+    for (int contador = 1; contador <= 3; contador++) {
+        printf("\nDigite o salario do funcionario %d: ", contador);
+        scanf("%f", &salario);
+        sleep(1);
+
+        novoSalario = salario + (salario * reajuste / 100);
+        printf("\nO novo salario do funcionario %d esta: R$ %.2f\n", contador, novoSalario);
+        sleep(1);
+
+        if (novoSalario > maiorSalario) {
+            maiorSalario = novoSalario;
+        }
+
+    }
+
+    printf("\nO maior salario reajustado ate agora esta: R$ %.2f\n\n", maiorSalario);
     
+    return 0;
 }
