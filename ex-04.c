@@ -17,11 +17,11 @@ int main() {
         }
     }
 
-    printf("Vetor alterado: \n");
+    printf("-----RESULTADOS-----\n");
 
     for (int i = 0; i < 5; i++) {
-        printf("Vetor original: %d \n", number[i]);
-        printf("%d ", number2[i]);
+        printf("Vetor original: %d - ", number[i]);
+        printf("Alterado: %d\n", number2[i]);
     }
     printf("\n");
     return 0;
